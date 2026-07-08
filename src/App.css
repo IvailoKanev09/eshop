@@ -1,0 +1,471 @@
+/* Базови настройки */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background-color: #0b0f19;
+  color: #f3f4f6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Навигация */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background-color: #111827;
+  border-bottom: 1px solid #1f2937;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.logo span {
+  color: #3b82f6;
+}
+
+.cart-toggle-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.cart-toggle-btn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.cart-badge {
+  background-color: #f59e0b;
+  color: #000;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Главна секция */
+.main-content {
+  flex: 1;
+  padding: 40px 24px;
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.hero-section p {
+  color: #9ca3af;
+  font-size: 15px;
+}
+
+/* Търсачка */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 440px;
+  padding: 14px 24px;
+  font-size: 16px;
+  background-color: #111827;
+  border: 2px solid #1f2937;
+  border-radius: 9999px;
+  color: white;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.search-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+}
+
+/* Мрежа с продукти */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.product-card {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.5);
+}
+
+.product-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2));
+}
+
+.product-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f9fafb;
+}
+
+.product-price {
+  font-size: 24px;
+  font-weight: 900;
+  color: #34d399;
+  margin: 16px 0;
+}
+
+.add-to-cart-btn {
+  background-color: #059669;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #10b981;
+}
+
+/* Страничен панел на количката */
+.side-cart {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 340px;
+  height: 100%;
+  background-color: #111827;
+  box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+  padding: 30px;
+  box-sizing: border-box;
+  z-index: 50;
+  border-left: 1px solid #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #1f2937;
+  padding-bottom: 16px;
+}
+
+.cart-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.close-cart-btn {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-cart-btn:hover {
+  color: white;
+}
+
+.empty-cart-msg {
+  color: #6b7280;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+.cart-items-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #1f2937;
+  font-size: 14px;
+}
+
+.cart-item-name {
+  font-weight: 500;
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cart-item-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cart-item-price {
+  font-weight: 700;
+  color: #34d399;
+}
+
+.remove-item-btn {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.remove-item-btn:hover {
+  background-color: #ef4444;
+  color: white;
+}
+
+/* Футър */
+.app-footer {
+  text-align: center;
+  padding: 24px;
+  background-color: #111827;
+  border-top: 1px solid #1f2937;
+  color: #4b5563;
+  font-size: 13px;
+}
+/* Нови стилове за общата сума в количката */
+.cart-total-section {
+  border-top: 1px solid #1f2937;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.total-price {
+  color: #34d399;
+  font-size: 20px;
+}
+
+.checkout-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.checkout-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.product-image-container {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.05);
+}
+/* --- СТИЛОВЕ ЗА ДЕТАЙЛНАТА СТРАНИЦА --- */
+.product-details-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+.details-container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap; /* За да е респонсив на по-малки екрани */
+}
+
+/* Лявата част със снимката */
+.details-left {
+  flex: 1;
+  min-width: 300px;
+  max-width: 550px;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* ФИКСЪТ ЗА СНИМКАТА: Ограничаваме я да не прелива */
+.details-left img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Дясната част с инфото */
+.details-right {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.details-category {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #2563eb;
+}
+
+.details-right h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.details-price-block {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.details-price {
+  font-size: 32px;
+  font-weight: 800;
+  color: #2563eb;
+}
+
+.details-price-bgn {
+  font-size: 18px;
+  color: #94a3b8;
+}
+
+.details-description {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+}
+
+.details-buy-btn {
+  background-color: #28c719;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  max-width: 250px;
+  text-transform: uppercase;
+}
+
+.details-buy-btn:hover {
+  background-color: #28c719;
+}

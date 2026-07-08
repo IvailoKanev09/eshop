@@ -1,0 +1,225 @@
+{
+  "products": [
+    {
+      "name": "Маратонки Nike Air Force 1 '07 BLACK",
+      "category": "дрехи",
+      "price": 110,
+      "oldPrice": null,
+      "badge": null,
+      "image": "",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Спортно горнище Nike Air Heritage Tracksuit",
+      "price": 85,
+      "category": "дрехи"
+    },
+    {
+      "name": "Смарт часовник Huawei Watch GT 6 ProBlack Fluoroelastomer Strap 46 MM",
+      "category": "Електроника",
+      "price": 249,
+      "oldPrice": null,
+      "badge": null,
+      "image": "",
+      "id": "3"
+    },
+    {
+      "name": "Училищна раница Jordan Monogram Backpack",
+      "category": "раници",
+      "price": 65,
+      "oldPrice": null,
+      "badge": null,
+      "image": "",
+      "id": "4"
+    },
+    {
+      "name": "Слушалки Sony WH-1000XM5 ANC, WHITE",
+      "category": "Електроника",
+      "price": 320,
+      "oldPrice": null,
+      "badge": null,
+      "image": "",
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "name": "Геймърска мишка Logitech G Pro X Superlight",
+      "price": 135,
+      "category": "периферия"
+    },
+    {
+      "name": "Смартфон HONOR X7d 256/8 VELVET BLACK 6.77 \", 256 GB, RAM 8 GB, 108+2 MP",
+      "category": "Електроника",
+      "price": 145,
+      "oldPrice": null,
+      "badge": null,
+      "image": "https://zora.bg/cdn/img/products/167119/smartfon-honor-x7d-2568-velvet-black--256-gb-8-gb-68c147f99670d.jpeg?width=1920&height=1920&v=1777479166",
+      "id": "z6ShSLzrfxw"
+    },
+    {
+      "name": "Смартфон Samsung GALAXY A17 128/4 GRAY SM-A175FZAB , 128 GB, 4 GB",
+      "price": 154.92,
+      "category": "Електроника",
+      "image": "https://zora.bg/cdn/img/products/167293/smartfon-samsung-galaxy-a17-1284-gray-sm-a175fzab--128-gb-4-gb-68c2d3347f44b.png?width=1920&height=1920&v=1777479244",
+      "id": "zjJmth-dCzg"
+    },
+    {
+      "name": "Смартфон Samsung GALAXY A17 256/8 GRAY SM-A175FZAB , 256 GB, 8 GB",
+      "price": 205,
+      "category": "Електроника",
+      "image": "https://zora.bg/cdn/img/products/167303/smartfon-samsung-galaxy-a17-1284-black-sm-a175fzkb--128-gb-4-gb-68c2d46673c01.png?width=1920&height=1920&v=1777479250",
+      "id": "He_RBFR0vD8"
+    },
+    {
+      "name": "Смартфон Apple iPhone 17 Pro 256GB Cosmic Orange 12 GB, 256 GB",
+      "category": "Електроника",
+      "price": 1265,
+      "oldPrice": null,
+      "badge": null,
+      "image": "https://zora.bg/cdn/img/products/167148/smartfon-apple-iphone-17-pro-256gb-cosmic-orange-mg8h4-68c1501375c6c.png?width=1920&height=1920&v=1777479184",
+      "id": "gre-AGvNADc"
+    },
+    {
+      "name": "Мишка RAZER BASILISK V3 PRO White RZ01-04620200-R3G1",
+      "category": "периферия",
+      "price": 180,
+      "oldPrice": null,
+      "badge": null,
+      "image": "https://api.technopolis.bg/medias/502558.jpg-Product-details-main?context=bWFzdGVyfHJvb3R8MTE0MzYwfGltYWdlL2pwZWd8YURKbEwyZ3paQzh6TVRrd01qQTJOVE01TXpZNU5DNXFjR2N8MGYzNDcyZDJkMWU5YTg3ZjU0YTNiN2RhYmI0ODg2ZTU2YmJkODkzZWM5YzIxZGM2MTViNTc1ZTRmMjI4ZjA4Mg",
+      "id": "or37rRSFoh8"
+    },
+    {
+      "name": "Безжична Клавиатура LOGITECH PRO X TKL Lightspeed White",
+      "category": "периферия",
+      "price": 169,
+      "oldPrice": null,
+      "badge": null,
+      "image": "https://api.technopolis.bg/medias/502045.jpg-Product-details-main?context=bWFzdGVyfHJvb3R8MTgzNTE3fGltYWdlL2pwZWd8YURFd0wyZzRZeTh6TVRjek1qQTROek0xTnpRM01DNXFjR2N8N2IzNTY5MjlmNTFlNmM0M2EwMWI4MWI3Nzg4YTgxYjkzOTI3YzJmZTJkMWYyNjc2YTU4MTdkYWVhYWE0NTdjNA",
+      "id": "t8eCTRCmGW4"
+    },
+    {
+      "name": "РАНИЦА GENESIS PALLAD 410",
+      "category": "раници",
+      "price": 30,
+      "oldPrice": null,
+      "badge": null,
+      "image": "https://api.technopolis.bg/medias/502663.jpg-Product-details-main?context=bWFzdGVyfHJvb3R8MTYwMTkzfGltYWdlL2pwZWd8YURNM0wyaGxZaTh6TWpBeU9EZzNNakUzT1RjME1pNXFjR2N8YTA2ZTkwMzRjYmM4NGQxNDRhOTJlNjE0MDY4YmY2Y2YzYjM1ODZmNDU1ZmJlMjVkN2ExZDE3MTczMGE0MTNjNQ",
+      "id": "lM_eZlegJzE"
+    },
+    {
+      "name": "Чанта за лаптоп + безжична мишка ACER STARTER KIT 17\"",
+      "category": "раници",
+      "price": 39,
+      "oldPrice": null,
+      "badge": null,
+      "image": "https://api.technopolis.bg/medias/561190.jpg-Product-details-main?context=bWFzdGVyfHJvb3R8ODAwMzR8aW1hZ2UvanBlZ3xhREZrTDJneE9TOHlOemsyT0RJNE56VTNNVGs1T0M1cWNHY3wyNmJiYmYzNTc4ZjFhYTg5YzZhODZjOWEwNzMzODdmZGY0MzI4NWU3Y2FlMGQwN2E1NDEyNjYwNTJlYjgwNGQ5",
+      "id": "9-sxPOGf3yY"
+    }
+  ],
+  "orders": [
+    {
+      "date": "3.07.2026 г., 12:04:43 ч.",
+      "items": [
+        {
+          "name": "Смарт часовник Huawei Watch GT 6 Pro",
+          "price": 249
+        }
+      ],
+      "total": 249,
+      "id": "8Xy8rz7zy9M",
+      "status": "Обработена"
+    },
+    {
+      "date": "6.07.2026 г., 09:02:50 ч.",
+      "items": [
+        {
+          "name": "Училищна раница Jordan Monogram Backpack",
+          "price": 65
+        }
+      ],
+      "total": 65,
+      "id": "4TMxbWOXz7Q",
+      "status": "Изпратена"
+    },
+    {
+      "date": "6.07.2026 г., 09:36:07 ч.",
+      "items": [
+        {
+          "name": "Маратонки Nike Air Force 1 '07",
+          "price": 110,
+          "qty": 1
+        }
+      ],
+      "subtotal": 110,
+      "discount": 0,
+      "shipping_method": "Еконт офис",
+      "shipping_cost": 9,
+      "payment_method": "Наложен платеж",
+      "total": 119,
+      "id": "kTJUYJFg14g",
+      "status": "Завършена"
+    },
+    {
+      "date": "6.07.2026 г., 09:40:59 ч.",
+      "items": [
+        {
+          "name": "Спортно горнище Nike Air Heritage Tracksuit",
+          "price": 85,
+          "qty": 1
+        }
+      ],
+      "subtotal": 85,
+      "discount": 9,
+      "shipping_method": "Спиди офис",
+      "shipping_cost": 6,
+      "payment_method": "Наложен платеж",
+      "total": 82,
+      "id": "KqoJGiW63nY",
+      "status": "Изпратена"
+    },
+    {
+      "date": "6.07.2026 г., 11:11:22 ч.",
+      "items": [
+        {
+          "name": "Смарт часовник Huawei Watch GT 6 Pro",
+          "price": 249,
+          "qty": 1
+        }
+      ],
+      "subtotal": 249,
+      "discount": 0,
+      "shipping_method": "BOX NOW автомат",
+      "shipping_cost": 0,
+      "payment_method": "Наложен платеж",
+      "comment": "",
+      "total": 249,
+      "id": "8hmM9c9SuBE",
+      "status": "Изпратена"
+    },
+    {
+      "date": "7.07.2026 г., 09:42:34 ч.",
+      "status": "Завършена",
+      "items": [
+        {
+          "name": "Смарт часовник Huawei Watch GT 6 Pro",
+          "price": 249,
+          "qty": 1
+        }
+      ],
+      "subtotal": "249.00",
+      "discount": "0.00",
+      "shipping_method": "Еконт офис",
+      "shipping_cost": "0.00",
+      "shipping_city": "Стара Загора",
+      "shipping_address": "6022",
+      "shipping_phone": "0881234554",
+      "payment_method": "Наложен платеж",
+      "cod_fee": "2.20",
+      "comment": "",
+      "total": "251.20",
+      "id": "CqQFFj0pE5w"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
