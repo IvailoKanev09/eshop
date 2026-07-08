@@ -1,16 +1,29 @@
-# React + Vite
+# VibeGrid - E-commerce Platform 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VibeGrid е съвременна уеб платформа за онлайн търговия (e-shop). Проектът включва напълно функционален клиентски интерфейс и мощен SuperAdmin панел за управление на продуктите.
 
-Currently, two official plugins are available:
+### Функционалности
+- **Каталог с продукти:** Динамично извеждане на стоките с детайлна информация.
+- **Интуитивна продуктова количка:** Добавяне, премахване и изчисляване на крайната цена в реално време.
+- **SuperAdmin Панел:** Специализиран администраторски интерфейс за пълно управление на магазина.
+- **CRUD Операции:** Възможност за добавяне на нови продукти, редактиране на съществуващи (заглавие, цена, наличност, описание) и изтриване директно от интерфейса.
+- **Локална база данни:** Използване на db.json за съхранение на информацията за продуктите.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🛠️ Технологичен стек
+- **Frontend:** React.js (Vite)
+- **Стилизиране:** Чист, модерен CSS (персонализирани стилове в App.css и index.css)
+- **База данни / Сървър:** JSON Server (db.json)
 
-## React Compiler
+###  Стартиране на проекта локално
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1) **Клонирайте хранилището:**
+git clone https://github.com/IvailoKanev09/eshop.git
 
-## Expanding the ESLint configuration
+2) **Инсталирайте зависимостите:**
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3) **Стартирайте локалния JSON сървър:**
+npx json-server --watch db.json --port 5000
+
+4) **Пуснете React приложението:**
+npm run dev
