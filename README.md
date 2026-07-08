@@ -23,7 +23,7 @@ git clone https://github.com/IvailoKanev09/eshop.git
 npm install
 
 3) **Стартирайте локалния JSON сървър:**
-npx json-server --watch db.json --port 5000
+npx json-server --watch db.json --port 3001
 
 4) **Пуснете React приложението:**
 npm run dev
